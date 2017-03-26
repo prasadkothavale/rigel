@@ -1,0 +1,32 @@
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+            <div class="masthead clearfix">
+                <div class="inner">
+                    <h1 class="masthead-brand">Rigel</h1>
+                    <nav>
+                        <ul class="nav masthead-nav">
+                            <li class="active">
+                                <a href="#">Login </a>
+                            </li>
+                            <li>
+                                <a href="../help">Help</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="inner cover">
+               <div *ngIf="showLogin"><login></login></div>
+               <div *ngIf="!showLogin"><register></register></div>
+            </div>
+            <div class="mastfoot">
+                <div class="inner">
+                    <p>
+                    <!-- space for footer -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

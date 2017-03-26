@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rigel</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link rel="stylesheet" href="styles.css">-->
+        <!-- Bootstrap Material Design CSS -->
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="/node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.css">
+        <link rel="stylesheet" href="/node_modules/bootstrap-material-design/dist/css/ripples.css">
+        <script>
+            document.write('<base href="' + document.location.origin + '" />');
+        </script>
+        <!-- Polyfill(s) for older browsers -->
+        <script src="node_modules/core-js/client/shim.min.js"></script>
+        <script src="node_modules/zone.js/dist/zone.js"></script>
+        <script src="node_modules/systemjs/dist/system.src.js"></script>
+        <script src="systemjs.config.js"></script>
+        <script>
+            System.import('app').catch(function(err) {
+                console.error(err);
+            });
+        </script>
+    </head>
+    <body>
+        <my-app>
+            <div class="progress progress-striped active">
+                <div class="progress-bar" style="width: 100%"></div>
+            </div>
+        </my-app>
+        <!-- Jquery -->
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <!-- Bootstrap Material Design js files -->
+        <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="node_modules/bootstrap-material-design/dist/js/material.js"></script>
+        <script src="node_modules/bootstrap-material-design/dist/js/ripples.js"></script>
+        <script>
+            $.material.init();
+        </script>
+    </body>
+</html>
