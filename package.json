@@ -1,7 +1,7 @@
 {
-  "name": "angular-quickstart",
+  "name": "Rigel",
   "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "description": "An automated server based Rest Client.",
   "scripts": {
     "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "e2e": "tsc && concurrently \"http-server -s\" \"protractor protractor.config.js\" --kill-others --success first",
@@ -13,8 +13,15 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Rest Client",
+    "Rest",
+    "Client",
+    "Automation",
+    "Node",
+    "Angualr 2"
+  ],
+  "author": "Prasad Kothavale",
   "license": "MIT",
   "dependencies": {
     "@angular/common": "~2.4.0",
