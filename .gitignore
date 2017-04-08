@@ -9,3 +9,8 @@ e2e/**/*.js
 e2e/**/*.js.map
 _test-output
 _temp
+RemoteSystemsTempFiles
+.metadata
+.project
+.tern-project
+.settings/*

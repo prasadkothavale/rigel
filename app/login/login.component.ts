@@ -1,5 +1,5 @@
 import { Component, trigger, state, style, animate, transition, group } from '@angular/core';
-import { LoginCover } from 'app/login/login-cover.component'
+import { LoginCover } from './login-cover.component';
 
 @Component({
   selector: 'login',
@@ -33,8 +33,8 @@ import { LoginCover } from 'app/login/login-cover.component'
     ])
   ]
 })
-export class Login  { 
-  
+export class Login  {
+
   public toggleLogin(): void {
     LoginCover.showLogin = (!LoginCover.showLogin);
   }

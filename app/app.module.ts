@@ -9,16 +9,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { Help } from './help/help.component';
 
 @NgModule({
-  imports: [ 
-    BrowserModule, 
-    AppRoutingModule 
+  imports: [
+    BrowserModule,
+    AppRoutingModule
   ],
-  declarations: [ 
-    AppComponent, 
+  declarations: [
+    AppComponent,
     LoginCover,
     Login,
     Register,
-    Help 
+    Help
   ],
   bootstrap: [ AppComponent ]
 })

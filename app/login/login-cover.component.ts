@@ -5,11 +5,11 @@ import { Component, ViewEncapsulation } from '@angular/core';
   templateUrl: 'app/login/login-cover.template.html',
   styleUrls: [
         'app/theme/css/cover.css'
-    ], 
+    ],
     encapsulation: ViewEncapsulation.None,
 })
-export class LoginCover  { 
-  
+export class LoginCover  {
+
   public static showLogin = true;
 
   public toggleLogin(): void {

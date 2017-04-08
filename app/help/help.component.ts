@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
   selector: 'help',
   templateUrl: 'app/help/help.template.html'
 })
-export class Help  { 
-  
+export class Help  {
+
 }
