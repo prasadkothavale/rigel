@@ -26,6 +26,6 @@ npm install
 ### Start server
 Run following command in cmd / terminal.
 ```shell
-node app.js
+npm start
 ```
 The server will be hosted on port 3002
